@@ -1,0 +1,250 @@
+html {overflow-y:scroll;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;margin:0; padding:0px;}
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+.hx a,.hx em,.fB{font-weight:bold;}
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+a {color:#252525; text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#4F4F4F;text-decoration:none;}
+a:active {color:#ba2636;}
+/*公用的代码*/
+.fl{float: left;}
+.ri{float: right;}
+.cl{clear: both;}
+.fmi{font-family: "微软雅黑" ;}
+.f14{font-size: 14px;}
+.f12{font-size: 12px;}
+.boder{border: 1px solid #D3D3D3;}
+/*首页代码*/
+.top{
+	width:985px;height: 54px;
+	background: url(../images/icon.png) repeat-x 0px 0px;
+	margin: 0 auto;
+	padding: 29px 0px 0px 17px;overflow: hidden;
+}
+.top .t_left{
+	width: 590px;height: 55px;overflow: hidden;
+}
+.top .t_right{
+	width: 365px;height: 55px;overflow: hidden;
+}
+.top .t_right .tp{
+width: 151px;padding:0px 0px 5px 230px;
+}
+.top .t_right .tp a{width: 35px;height: 18px;padding-left: 32px;
+display: inline-block;font: 10px "微软雅黑";
+}
+.top .t_right .tp .a1{border-right: 1px solid black;
+	background: url(../images/icon.png) no-repeat -143px -105px;}
+.top .t_right .tp .a2{margin-left: 10px;
+ background: url(../images/icon.png) no-repeat -146px -132px;}
+.top .t_right .bo{
+	width: 400px;height: 18px;
+}
+.top .t_right .bo .bo_left{
+	padding:0px 20px 0px 20px; color: #717171;
+	background: url(../images/icon.png) no-repeat -156px -166px;
+}
+.top .t_right .bo .bo_search{width: 160px;height: 26px;
+	}
+.top .t_right .bo .bo_search input{
+	background: url(../images/icon.png) no-repeat -0px -199px;
+	height: 26px;	border: 0px;
+	}
+.top .t_right .bo .bo_search .p1{
+	width: 136px;_width: 126px;_padding: 5px;
+	background: url(../images/icon.png) no-repeat -0px -199px;
+}
+.top .t_right .bo .bo_search .p2{
+	width: 24px;cursor: pointer;
+	background: url(../images/icon.png) no-repeat -136px -199px;
+}
+/*导航栏*/
+.navbar{
+	width:937px;height: 42px;padding-left: 60px;
+	background: url(../images/icon.png) repeat-x 0px -237px;
+	margin: 0 auto;border-radius: 8px;
+}
+.navbar ul{width:942px;height: 42px;padding-left: 60px;
+	list-style: none;border: 0px;padding: 0px;margin-top: -2px;
+}
+.navbar ul li{text-align: center;line-height: 42px;position: relative;}
+.navbar ul li .li_son{
+	width: 111px;height: auto;z-index: 99;position: absolute;
+	left: 6px;top: 42px;background-color: white;border: 1px solid #B8BCC4;
+	border-top: none;padding-bottom: 15px;
+}
+.navbar ul li .li_son ul{
+	width: 111px;height: auto;
+	list-style: none;
+}
+.navbar ul li .li_son ul li{
+	width: 111px;height:30px;line-height: 30px;
+	list-style: none;float: left;
+}
+.navbar ul .shouye{width: 70px;}
+.navbar ul .line{width: 100px;
+	padding-left: 11px;
+	background: url(../images/icon.png) no-repeat 0px -123px;}
+.navbar ul li a{
+	line-height: 42px;
+}
+/*banner*/
+.banner{width: 1002px;margin:0 auto;height: 355px;padding-top: 3px; z-index: 11;}
+
+/*point*/
+.yuanjiao{border-radius: 8px;border: 1px solid #C4C4C4;}
+.point{width: 1002px;height:231px;margin: 0 auto; padding: 20px 0px 15px 11px;}
+.point .pt_same{width: 250px;height:231px; }
+.point .pt_left{background: url(../images/bg_address.png) no-repeat 0px 0px;}
+.point .pt_middle{width: 434px;height:231px;margin: 0px 19px;}
+.point .pt_right{background-color: #F8F9FA;}
+.point h3{
+	width: 161px;padding: 10px 0px 30px 60px;text-indent: -9999em;
+	background:url(../images/icon.png) no-repeat 60px -279px; 
+}
+.point .pt_left .address{
+	width: 228px;height: 150px;padding: 0px 0px 0px 13px;
+}
+.point .pt_left .address p{
+	line-height: 25px;
+}
+.point .ri_h3{width: 228px;height: 45px;padding: 0px;
+background: url(../images/icon1.png) no-repeat -250px -43px;
+}
+/*产品轮播*/
+.point .pt_right .gundong{
+	width: 209px;height: 148px;padding: 20px 0px 0px 30px;
+	position: relative;
+}
+.point .pt_right #lunbo{
+	width: 170px;height: 125px;border: 1px solid #C4C4C4;
+ 	overflow: hidden;position: relative;
+}
+.point .pt_right #lunbo #tupian{
+	width: 170px;height: 113px;
+	padding: 5px;overflow: hidden;
+}
+.point .pt_right #lunbo #tupian ul{list-style: none;width: 8000px;
+		position: absolute;left:0px;height: 110px;overflow: hidden;}
+
+.point .pt_right #lunbo #tupian ul li{float: left;width: 154px;}
+.point .pt_right #lunbo #tupian ul li {left: -15px;}
+.point .pt_right #lunbo #anniu{}
+.point .pt_right .gundong #anniu .zuo{
+	display: block;width: 28px;height: 60px;z-index: 2;	
+	background: url(../images/icon1.png) no-repeat -121px -47px;
+	position: absolute;top: 40%;left: 1px;cursor: pointer;
+}
+.point .pt_right .gundong #anniu .you{
+	display: block;width: 28px;height: 60px;z-index: 2;
+	background: url(../images/icon1.png) no-repeat -1px -47px;
+	position: absolute;top: 40%;right: -10px;cursor: pointer;
+}
+
+.point .md_h3{width: 443px;height: 38px;padding: 0px;
+background: url(../images/icon1.png) no-repeat -4px -2px;
+}
+.point .md_bot{width: 434px;height: 194px;border: 1px solid #C4C4C4;
+	border-top:none;overflow: hidden;
+}
+.point .md_bot .md_bot_top{width: 430px;height: 141px;}
+.point .md_bot .md_bot_top img{padding: 0px 15px 0px 3px;}
+.point .md_bot  p{width: 208px;height: 141px;line-height: 23px;
+color: #2B2B2B;}
+.point .md_bot  p b{width: 24px; height: 22px;display: inline-block;
+background: url(../images/icon.png) no-repeat -3px -96px;
+}
+.point .md_bot .p2{
+	width: 420px;padding-left: 10px;
+}
+.point .md_bot .p2 a{color: red;}
+/*footer*/
+.footer{
+	width: 100%;margin: 0 auto;height: 75px;
+	background: url(../images/icon.png) repeat-x 0px -361px;
+}
+.footer .yejiao{
+	width: 500px;margin: 0 auto;height: 45px;padding-top: 23px;
+	text-align: center;font:11px "宋体";color: #AAA9A9;
+	line-height: 25px;
+}
+/*************************************************************/
+/*内容页的页面CSS*/
+.blackbar{
+	width:982px ;height: 30px;line-height: 32px;margin: 0 auto;
+	margin-top: 10px;padding:0px 0px 10px 20px;overflow: hidden;
+	background: url(../images/icon.png) repeat-x 0px -452px;
+}
+.blackbar a{float: left;}
+.blackbar span{display: inline-block; float: left;padding: 0px 5px;}
+/*产品框*/
+.product{
+	width: 997px;height: auto;margin: 0 auto;padding-left: 5px;
+	overflow: hidden;
+}
+.product .product_left{
+	width: 215px;height: 200px;overflow: hidden;
+}
+.product .product_left h3{
+	width: 204px;height: 61px;
+	background: url(../images/icon1.png) no-repeat 0px -148px;
+}
+.product .product_left .product_list{
+	width: 200px;height: 48px; 
+}
+.product .product_left .product_list ul{
+	list-style: none;
+}
+.product .product_left .product_list ul a{
+	float: left;width: 200px; height: 19px;
+	margin-top: 5px;overflow: hidden;
+}
+.product .product_left .product_list ul li{
+	float: left;padding-left: 90px;line-height: 19px;
+	background: url(../images/icon1.png) no-repeat -391px -149px;
+}
+.product .product_left .product_list ul .li1{
+	background: url(../images/icon1.png) no-repeat -391px -124px;
+}
+.product .product_left .product_list ul .a1{
+	background: url(../images/icon.png) repeat-x 0px -493px;
+	color:#16499A;font: bold 12px "宋体";
+}
+
+.product .product_left .product_list ul .a2{
+	background: url(../images/icon.png) repeat-x 0px -524px;
+}
+.product .product_right{
+	width:777px;height:auto;overflow: hidden;
+}
+.product .product_right h3{
+	width: 740px; height:30px;float: left;line-height: 30px;
+	border-bottom: 2px solid #CDCED0;color:#16499A;
+	font: bold 16px "微软雅黑";padding-left: 37px;
+}
+.product .product_right .chanpin{
+	width: 756px; height: 431px;padding: 15px 0px 0px 21px;
+	overflow: hidden;
+}
+.product .product_right .chanpin .kuang{
+	width: 150px; height: 189px;padding: 0px 5px 10px 8px; margin-right: 20px;
+	margin-bottom: 15px;overflow: hidden;
+}
+.product .product_right .chanpin .kuang p{
+	width: 150px;line-height: 18px;
+}
+.product .product_right .chanpin .kuang p span{
+	font-weight: bold;
+}
+/**************************************************************/
+/*公司简介页面CSS*/
+.product .product_right .chanpin .jianjie{
+	line-height: 30px;padding-bottom:5px;
+}

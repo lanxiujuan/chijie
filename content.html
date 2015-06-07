@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "
+http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="关键词1,关键词2,关键词3" />
+		<meta name="description" content="对网站的描述" />
+		<title>标题</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/ie6png.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.point h3,.point .md_h3,.point .ri_h3 ,.blackbar');</script>
+    </script>
+	</head>
+	<body>
+		<div class="top">
+			<h1 class="t_left fl">
+				<img src="images/logo.png">
+			</h1>
+			<div class="t_right fl">
+				<div class="tp fl">
+					<a class="fl a1" href="#">中文</a>
+					<a class="fl a2" href="#">英文</a>
+				</div>
+				<div class="bo fl">
+					<div class="bo_left fmi f14 fl">
+						销售热线：020-84588556
+					</div>
+					<div class="bo_search fl">
+						<input  class="p1 fl" type="text">
+						<input  class="p2 fl" type="buttom">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cl"></div>
+		<div class="navbar">
+			<ul class="fl fmi f14 mainnav">
+				<li class="shouye fl "><a href="#">首页</a></li>
+				<li class="line fl "><a href="#">关于我们</a>
+					 <div class="li_son">
+                            	<ul>
+								<li><a href="#">公司简介</a></li>
+								<li><a href="#">电源事业部</a></li>
+								<li><a href="#">线材事业部</a></li>
+								<li><a href="#">企业文化</a></li>
+								<li><a href="#">企业荣誉</a></li>
+								<li><a href="#">组织机构</a></li>
+                            </div>
+				</li>
+				<li class="line fl "><a href="#">产品中心</a>
+						 <div class="li_son">
+                            	<ul>
+								<li><a href="#">电源产品展示</a></li>
+								<li><a href="#">线材产品展示</a></li>
+                            </div>
+				</li>
+				<li class="line fl "><a href="#">新闻资讯</a>
+					 <div class="li_son">
+                            	<ul>
+								<li><a href="#">公司新闻</a></li>
+								<li><a href="#">行业新闻</a></li>
+                            </div>
+				</li>
+				<li class="line fl "><a href="#">客户服务</a>
+						 <div class="li_son">
+                            	<ul>
+								<li><a href="#">服务理念</a></li>
+								<li><a href="#">服务体系</a></li>
+								<li><a href="#">技术支持</a></li>
+								<li><a href="#">资料下载</a></li>
+                            </div>
+				</li>
+				<li class="line fl "><a href="#">生产制造</a>
+				</li>
+				<li class="line fl "><a href="#">人才招聘</a></li>
+				<!-- <li class="line fl"><a href="#">留言反馈</a>
+					 <div class="li_son">
+                            	<ul>
+								<li><a href="#">在线订购</a></li>
+								<li><a href="#">意见建议</a></li>
+                            </div>
+				</li> -->
+				<li class="line fl"><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<div class="cl"></div>
+		<div class="banner">
+			<a target="_self" href="javascript:goUrl()"><span class="f14b">
+<script type="text/javascript">
+var onecouunt=0;
+subcat=new Array();
+
+subcat[0]=new Array("","images/banner1.jpg","#");
+
+subcat[1]=new Array("","images/banner2.jpg","Product_v41.html");
+
+subcat[2]=new Array("","images/banner3.jpg","Product_v54.html");
+
+subcat[3]=new Array("","images/banner4.jpg","Product_v64.html");
+
+subcat[4]=new Array("","images/banner5.jpg","Product_v43.html");
+
+onecount=5;
+var pics="";
+var links="";
+var texts="";
+for (var ii=0 ;ii<onecount; ii++){
+	if(ii==onecount-1){
+		var imgUrl=subcat[ii][1];
+		var imgtext=subcat[ii][0];
+		var imgLink=escape(subcat[ii][2]);
+	}else{
+		var imgUrl=subcat[ii][1]+'|';
+		var imgtext=subcat[ii][0]+'|';
+		var imgLink=escape(subcat[ii][2])+'|';
+	}
+	pics+=imgUrl;
+	links+=imgLink;
+	texts+=imgtext;
+}
+
+ 
+ var interval_time=5 //图片停顿时间，单位为秒，为0则停止自动切换
+var focus_width=1002 //宽度
+var focus_height=355 //高度
+var text_height=0 //标题高度
+var text_align= 'center' //标题文字对齐方式(left、center、right)
+var swf_height = focus_height+text_height //相加之和最好是偶数,否则数字会出现模糊失真的问题
+  
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'" border="0">');
+document.write('<param name="movie" value="pixviewer.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'&text_align='+text_align+'&interval_time='+interval_time+'&border=0">');
+document.write('<embed src="pixviewer.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'&text_align='+text_align+'&interval_time='+interval_time+'&border=0" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+document.write('</object>');
+ </script>
+</span></a>
+
+		</div>
+		<div class="cl"></div>
+		<!--banner层结束-->
+		<!--blackbar层开始-->
+			<div class="blackbar fmi f12"><span>网站位置：</span>
+				<a href="index.html" >首页</a>
+				<span class="f14">></span>
+				<a href="#">产品中心</a>
+				<span class="f14">></span>
+				<a href="#">电源产品展示</a>
+			</div>	
+		<!--blackbar层结束-->
+		<div class="cl"></div>
+		<!--banner层结束-->
+		<!--product层开始-->
+			<div class="product">
+				<div class="product_left fl">
+					<h3 class="fl"></h3>
+					<div class="product_list fl">
+						<ul>
+							<a href="#" class="a1"><li class="li1">电源产品展示</li></a>
+
+							<a href="#" class="a2 f12"><li>线材产品展示</li></a>
+						</ul>
+					</div>
+				</div>
+				<div class="product_right fl">
+					<h3>产品中心</h3>
+					<div class="chanpin fl">
+						
+						<div class="kuang fl boder"><!--框开始-->
+							<img class="fl" src="images/pro1.png">
+							<p class="fl fmi f12"><span>产品型号：</span>BTA09E1<br/><span>产品名称：</span>90W宏碁15V-24V笔记本<br/><span>产品类别：</span>笔记本配器
+
+							</p>
+						</div><!--框结束-->
+						<div class="kuang fl boder"><!--框开始-->
+							<img class="fl" src="images/pro1.png">
+							<p class="fl fmi f12"><span>产品型号：</span>BTA09E1<br/><span>产品名称：</span>90W宏碁15V-24V笔记本<br/><span>产品类别：</span>笔记本配器
+
+							</p>
+						</div><!--框结束-->
+						<div class="kuang fl boder"><!--框开始-->
+							<img class="fl" src="images/pro1.png">
+							<p class="fl fmi f12"><span>产品型号：</span>BTA09E1<br/><span>产品名称：</span>90W宏碁15V-24V笔记本<br/><span>产品类别：</span>笔记本配器
+
+							</p>
+						</div><!--框结束-->
+						<div class="kuang fl boder"><!--框开始-->
+							<img class="fl" src="images/pro1.png">
+							<p class="fl fmi f12"><span>产品型号：</span>BTA09E1<br/><span>产品名称：</span>90W宏碁15V-24V笔记本<br/><span>产品类别：</span>笔记本配器
+
+							</p>
+						</div><!--框结束-->
+						<div class="kuang fl boder"><!--框开始-->
+							<img class="fl" src="images/pro1.png">
+							<p class="fl fmi f12"><span>产品型号：</span>BTA09E1<br/><span>产品名称：</span>90W宏碁15V-24V笔记本<br/><span>产品类别：</span>笔记本配器
+
+							</p>
+						</div><!--框结束-->
+						<div class="kuang fl boder"><!--框开始-->
+							<img class="fl" src="images/pro1.png">
+							<p class="fl fmi f12"><span>产品型号：</span>BTA09E1<br/><span>产品名称：</span>90W宏碁15V-24V笔记本<br/><span>产品类别：</span>笔记本配器
+
+							</p>
+						</div><!--框结束-->
+						<div class="kuang fl boder"><!--框开始-->
+							<img class="fl" src="images/pro1.png">
+							<p class="fl fmi f12"><span>产品型号：</span>BTA09E1<br/><span>产品名称：</span>90W宏碁15V-24V笔记本<br/><span>产品类别：</span>笔记本配器
+
+							</p>
+						</div><!--框结束-->
+						<div class="kuang fl boder"><!--框开始-->
+							<img class="fl" src="images/pro1.png">
+							<p class="fl fmi f12"><span>产品型号：</span>BTA09E1<br/><span>产品名称：</span>90W宏碁15V-24V笔记本<br/><span>产品类别：</span>笔记本配器
+
+							</p>
+						</div><!--框结束-->
+
+					</div>
+				</div>
+			</div>	
+		<!--product层结束-->
+		<div class="cl"></div>
+		<div class="footer">
+			<div class="yejiao">
+				 版权所有   广州驰捷电子科技有限公司   电话：020-34528599  传真：020-84588556 <br/>
+公司地址：广州市番禺区迎宾路北侧夏滘综合楼6楼603室    工厂地址：广州市石基镇沙涌工业区  
+			</div>
+		</div>
+	</body>
+</html>
